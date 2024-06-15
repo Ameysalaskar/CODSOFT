@@ -1,0 +1,583 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(2, 2, 50);
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+   }
+
+   /* Navbar Styling */
+   
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 85px;
+    background-color: rgb(22, 22, 98);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: plum;
+}
+
+/* First Section Styling */
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 110px 0;
+}
+.firstSection > div{
+    width: 150px%;
+}
+
+.leftSection{
+    width: 647px;
+    /* background-color: red; */
+    height: 215px;
+    font-size: 3rem;
+    margin: 18px 0;
+}
+.leftSection > .small{
+    font-size: 24px;
+}
+.leftSection > .big_text{
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.leftSection > div{
+    /* background-color: aqua; */
+    width: 647px;
+    margin-top: 30px;
+}
+
+
+.rightSection img{
+    width: 80%;
+}
+.aqua{
+    color: aqua;
+}
+#element{
+    color: rgb(97, 11, 178);
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* about section styling */
+
+
+.about{
+    height: 622px;
+    display: flex ;
+    justify-content: space-around;
+    /* background-color: brown; */
+    /* margin: 50px 0; */
+}
+.about > .right_section{
+    margin-left: 67px;
+    margin-top: 55px;
+    height: 500px;
+    width: 500px;
+    /* background-color: red; */
+    border-radius: 50%;
+    box-shadow: -25px -14px 96px rgb(94, 103, 106)
+    
+    
+}
+.about > .left_section{
+    margin-right: 120px;
+    margin-left: 143px;
+    margin-top: 17px;
+    height: 500px;
+    /* width: 500px; */
+    /* background-color: green; */
+
+}
+.left_section > .heading{
+    font-size: 2em;
+   
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+}
+.left_section > .content{
+    line-height: 1.79;
+   text-align: justify;
+   font-size: 18px;
+}
+.left_section > .content_two{
+    line-height: 1.79;
+   text-align: justify;
+   font-size: 18px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------- */
+
+/* skills section styling */
+
+.heading_skills{
+margin-left: 68px;
+text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.skills_section{
+    margin-top: 99px;
+    /* background-color: red; */
+    height: 269px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box > .box1, .box2, .box3, .box4{
+    height: 176px;
+    width: 313px;
+    /* border: 1px solid white; */
+}
+.box1 > h3{
+    padding: 17px;
+    color: aqua;
+}
+.box2 > h3{
+    padding: 17px;
+    color: aqua;
+}
+.box3 > h3{
+    padding: 17px;
+    color: aqua;
+}
+.box4 > h3{
+    padding: 17px;
+    color: aqua;
+}
+
+.box1 > ul {
+    margin: 13px 34px;
+    list-style: square;
+}
+.box2 > ul{
+    margin: 13px 34px;
+    list-style: square;
+}
+.box3 > ul{
+    margin: 13px 34px;
+    list-style: square;
+}
+.box4 > ul{
+    margin: 13px 34px;
+    list-style: square;
+}
+
+.soft_skills{
+    margin: 0 62px;    
+    color: aqua;
+    font-size: 22px;;
+}
+.skills{
+    font-size: 20px;
+    margin-left: 68px;
+    margin-right: 15px;
+}
+.skills > .line{
+    color: aqua;
+    font-size: 27px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+.horizontal_line{
+    margin: 65px 293px;
+    width: 900px;
+    box-shadow: 0 0 10px aqua;
+   
+}
+/* styling project_section */
+.project_section{
+    /* background-color: red; */
+    margin-top: 69px;
+    height: 200px;
+}
+
+.project_section > h1{
+    margin-left: 68px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.project_section > h3{
+    font-size: 37px;
+    text-align: center;
+    margin-top: 51px;
+}
+
+
+.projects{
+    height: 402px;
+    /* background-color: rebeccapurple; */
+    margin-top: 145px;
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+
+.projects >.p1{
+    background-image: url(./assets/backimage4.jpg);
+    background-size: cover;
+    background-position: left;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    transition: 1s ease-in-out;
+    height: 400px;
+    width: 300px;
+    /* border: 2px solid white; */
+    border-radius: 15px;
+}
+.p1 > h3{
+    margin: 25px 20px;
+}
+.p1:hover{
+    background-color: #999;
+    background-position: right;
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+}
+
+
+.projects >.p2{
+    background-image: url(./assets/bg.jpg);
+    background-size: cover;
+    background-position: left;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    transition:  1s ease-in-out;
+    height: 400px;
+    width: 300px;
+    /* border: 2px solid white; */
+    border-radius: 15px;
+}
+.p2 > h3{
+    margin: 25px 20px;
+}
+.p2:hover{
+    background-color: #999;
+    background-position: right;
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+}
+
+
+.projects >.p3{
+    background-image: url(./assets/background\ cover.jpg);
+    background-size: cover;
+    background-position: left;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    transition:  1s ease-in-out;
+    height: 400px;
+    width: 300px;
+    /* border: 2px solid white; */
+    border-radius: 15px;
+}
+.p3 > h3{
+    margin: 25px 20px;
+}
+.p3:hover{
+    background-color: #999;
+    background-position: right;
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+}
+
+
+.projects >.p4{
+    background-image: url(./assets/education3.jpg);
+    background-size: cover;
+    background-position: left;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    transition:  1s ease-in-out; 
+    height: 400px;
+    width: 300px;
+    /* border: 2px solid white; */
+    border-radius: 15px;
+}
+.p4 > h3{
+    margin: 25px 20px;
+}
+.p4:hover{
+    background-color: #999;
+    background-position: right;
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+}
+
+
+
+
+.projects_two{
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+
+
+.projects_two >.p5{
+    background-image: url(./assets/hoverboard\ template.jpg);
+    background-size: cover;
+    background-position: left;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    transition:  1s ease-in-out; 
+    height: 400px;
+    width: 300px;
+    /* border: 2px solid white; */
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-end;
+}
+.p5 > h3{
+    margin: 25px 20px;
+}
+.p5:hover{
+    background-color: #999;
+    background-position: right;
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+}
+
+
+.projects_two >.p6{
+    background-image: url(./assets/tesla.jpg);
+    background-size: cover;
+    background-position: left;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    transition:  1s ease-in-out; 
+    height: 400px;
+    width: 300px;
+    /* border: 2px solid white; */
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-end;
+}
+.p6 > h3{
+    margin: 25px 20px; 
+}
+.p6:hover{
+    background-color: #999;
+    background-position: right;
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+}
+
+
+.projects_two >.p7{
+    background-image: url(./assets/nike\ template.jpg);
+    background-size: cover;
+    background-position: left;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    transition:  1s ease-in-out; 
+    height: 400px;
+    width: 300px;
+    /* border: 2px solid white; */
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-end;
+}
+.p7 > h3{
+    margin: 25px 20px; 
+}
+.p7:hover{
+    background-color: #999;
+    background-position: right;
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+}
+
+
+.projects_two >.p8{
+    background-image: url(./assets/tours\ design.jpg);
+    background-size: cover;
+    background-position: left;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    transition:  1s ease-in-out; 
+    height: 400px;
+    width: 300px;
+    /* border: 2px solid white; */
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-end;
+}
+.p8 > h3{
+    margin: 25px 20px;
+}
+.p8:hover{
+    background-color: #999;
+    background-position: right;
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+/* Contact section styling */
+
+.download{
+    display: flex;
+    justify-content: end;
+    /* background-color: purple; */
+    margin-top: 56px;
+}
+
+.resume_download{
+    background-color: red;
+    color: white;
+    padding: 16px;
+    border-radius: 25px;
+    font-size: 25px;
+    margin-right: 182px;  
+    text-decoration: none; 
+    transition: 0.5s ease;
+}
+.resume_download:hover{
+    cursor: pointer;
+    box-shadow: 0 0 8px aqua; 
+    background-color: white;
+    color: black;
+    
+}
+
+
+.connect_me{
+    margin-top: 70px;
+    background-color: black;
+    height: 334px;
+    display: flex;
+}
+
+
+.connect_me > .div1{
+    background-color: bisque;
+    width: 60px;
+}
+.connect_me > .div2{
+    background-color: white;
+    width: 700px;
+    color: black;
+}
+.connect_me > .div3{
+    background-image: url(./assets/contact\ me.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #d1cbcb;
+    background-blend-mode: multiply;
+    width: 713px;
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* background: linear-gradient(to right, rgb(218, 213, 213), rgb(227, 222, 222)); */
+}
+.div2>.contact_heading{
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.sources{
+    margin-top: 18px;
+}
+.mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.mail > #mail{
+    border: 2px solid black;
+    border-radius: 50%;
+    box-shadow: 0 0 6px black;
+}
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 128px;
+    margin: 8px 0;
+}
+.phone > #phone{
+    border: 2px solid black;
+    border-radius: 50%;
+    box-shadow: 0 0 6px black;
+}
+.icons{
+    margin-top: 70px;
+    display: flex;
+    gap: 25px;
+    
+
+}
+#insta, #facebook, #github, #linkedin{
+    border: 2px solid black;
+    border-radius: 30%;
+    transition: 0.5s ease;
+}
+
+.icons > img:hover{
+    box-shadow: 0 0 10px blueviolet;
+    cursor: pointer;
+    transition: 0.4s  ease-out;
+    height: 20px;
+    width: 20px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+/* Footer section styling */
+
+.footer{
+    height: 100px;
+    background-color: #645b5b;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.left_section > .heading , .left_section > .content , .left_section > .content_two, .about > .right_section, .heading_skills, .box, .soft_skills, .skills, .project_section > h1, .project_section > h3, .resume_download  {
+    animation: CSSscrollReveal ease-in-out both;
+    animation-timeline: view();
+    animation-range: entry 50% cover 50%;
+}
+
+@keyframes CSSscrollReveal {
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
