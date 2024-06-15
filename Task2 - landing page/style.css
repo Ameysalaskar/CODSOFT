@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 85px;
+    background-color: rgb(0, 0, 0); 
+    
+   
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: normal;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+nav ul li a:hover{
+    color: #a36b34
+    /* transition: 2s ease-in-out */
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+
+/* main section styling */
+.green{
+    color: #774614;
+}
+.main_section{
+    background: linear-gradient(to bottom right, #cb9392, #cdc78d);
+    height: 680px;
+    display: flex;
+    justify-content: flex-end;
+}
+.main_section > .left{
+    margin-top: 91px;
+    /* background-color: white; */
+    height: 500px;
+    width: 500px;
+}
+
+.main_text{
+    font-size: 94px;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 82px;   
+}
+.sub_text{
+    margin-top: 35px;
+    font-size: 24px;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.buttons{
+    margin-top: 35px;
+    
+}
+.buttons > #first_btn{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: normal;
+    padding: 11px;
+    border-radius: 31px;
+    width: 211px;
+    cursor: pointer;
+    font-size: 15px;
+    border-color: transparent;
+}
+#first_btn:hover{
+    background-color: black;
+    color: white;
+}
+#first_btn:active{
+    background-color:  rgb(128, 121, 121);;
+}
+
+
+.buttons > #second_btn{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: normal;
+    padding: 15px;
+    border-radius: 31px;
+    cursor: pointer;
+    width: 149px;
+    padding: 11px;
+    background-color: black;
+    border-color: transparent;
+    color: white;   
+    font-size: 15px;    
+}
+#second_btn:hover {
+    background-color: gray;
+    color: black;
+}
+#second_btn:active{
+    background-color: rgb(177, 173, 173);
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------- */
+/* first_container styling */
+
+.first_container{
+    margin-top: 110px;
+    /* background-color: black; */
+    color: white;
+    height: 659px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 137px;
+}
+
+.left_container{
+    /* background-color: red; */
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right_container{
+    /* background-color: purple; */
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c_text{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;
+    line-height: 42px;
+    color: black;
+}
+.c_sub_text{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 33px;
+    color: black;
+}
+.c_sub_sub_text{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: normal;
+    color: gray;
+    margin-top: 20px;
+}
+.container_button{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 33px;
+}
+.btn_text{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color:  #139b4f;
+    text-shadow: 0 0 2px aqua;
+}
+.btn_text:hover{
+    cursor: pointer;
+    color: black;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+.three_heads{
+    margin-top: 55px;
+    height: 400px;
+    /* background-color: red; */
+    display: flex;
+}
+.three_heads:hover{
+    cursor: crosshair;
+    
+}
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+.vibrant_color{
+    /* background-color: black; */
+    height: 826px;
+    /* color: white; */
+    margin-top: 145px;
+}
+.vibrant_color > .main-text{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 43px;
+    text-align: center;
+    color: black;
+}
+.vibrant_color > .sub-text{
+    margin-top: 15px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    color: gray;
+}
+
+.varients{
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    
+}
+.varients > .box1{
+    /* background-color: rebeccapurple; */
+    height: 600px;
+    width: 300px;
+    transition: 0.5s;
+}
+.varients > .box1:hover{
+cursor: pointer;
+transform: translateY(-50px)
+}
+
+
+.varients > .box2{
+    /* background-color: red; */
+    height: 600px;
+    width: 300px;
+    transition: 0.5s;
+}
+.varients > .box2:hover{
+    cursor: pointer;
+    transform: translateY(-50px)
+}
+
+
+
+.varients > .box3{
+    /* background-color: yellow; */
+    height: 600px;
+    width: 300px;
+    transition: 0.5s;
+}
+.varients > .box3:hover{
+    cursor: pointer;
+    transform: translateY(-50px)
+}
+
+
+
+.varients > .box4{
+    /* background-color: green; */
+    height: 600px;
+    width: 300px;
+    transition: 0.5s;
+}
+.varients > .box4:hover{
+    cursor: pointer;
+    transform: translateY(-50px)
+}
+/* ------------------------------------------------------------------------------------------------------------------- */
+/* footer section styling */
+
+.footer{
+    background-color: black;
+    height: 250px;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.f1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.f1 > p{
+    font-size: 15px;
+}
+.f1 > img{
+    color: black;
+}
+.footer > .f1{
+    /* border: 2px solid white; */
+    width: 150px;
+    height: 250px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+.f2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer > .f2{
+    /* border: 2px solid white; */
+    width: 150px;
+    height: 250px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: normal;
+}
+.footer > .f2 > ul{
+    list-style: none;
+    color: gray;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.f3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+}
+.footer > .f3{
+    /* border: 2px solid white; */
+    width: 150px;
+    height: 250px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: normal;
+}
+.footer > .f3 > ul{
+    list-style: none;
+    color: gray;
+    line-height: 35px;
+    cursor: pointer;;
+}
+.footer > .f1 > #image{
+    color: black;
+}
+
+.hr_line{
+    color: white;
+    margin-bottom: 25px;
+}
+
+
+
+.left_container, .right_container {
+    animation: CSSscrollReveal ease-in-out both;
+    animation-timeline: view();
+    animation-range: entry 50% cover 50%;
+}
+.vibrant_color{
+    animation: CSSscrollReveal ease-in-out both;
+    animation-timeline: view();
+    animation-range: entry 30% cover 50%;
+}
+
+
+
+.three_heads{
+    animation: scroll 9s linear infinite;
+}
+
+
+@keyframes scroll {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(calc(-250px * 3));
+    }
+}
+
+@keyframes CSSscrollReveal {
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.right > img{
+    transition-duration: 1s ;
+}
+.right > img:hover{
+    cursor: pointer;
+    /* transform: scale(-600px, -600px); */
+    transform: rotatez(20deg);
+}
